@@ -1,0 +1,141 @@
+
+body {
+    background: linear-gradient(to right, #621fce ,rgb(242, 11, 11),#f214c2);
+}
+
+.container {
+    border-radius: 10px;
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: 60px;
+    background-color: #e61bac;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    border: transparent;
+    .logo{
+        position: relative;
+        top: 13px;
+        left: 85px;
+       font-size: 30px;
+       color: black;
+    }
+
+
+    .navbar {
+        
+        h3 {
+            position: relative;
+            right: 290px;
+            bottom: 20px;
+        }
+
+        display: flex;
+        position: relative;
+        left: 28%;
+        gap: 90px;
+        text-transform: capitalize;
+        top: 20px;
+        list-style: none;
+
+    }
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #e44acd;
+    letter-spacing: 2px;
+    
+    h2{
+      font-size: 25px;
+    }
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    color:#e44acd;
+    h1{
+        font-size: 60px;
+    }
+
+}
+
+.paragraph{
+   
+ margin-left: 30%; 
+ position: relative;
+ bottom: 70px;
+ color:#e44acd;
+ 
+   
+   
+   p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+   }
+   h4{
+    font-size: 20px;
+    position: relative;
+
+   }
+   h3{
+    position: relative;
+    margin-left: 40px;
+     bottom: 20px;
+    
+   }
+   h5{
+    position: relative;
+    font-size:19px ;
+    margin-left:120px ;
+    bottom: 45px;
+
+   }
+}
+.bot{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    gap: 20px;
+
+    button1{
+        /* border: 1px solid black; */
+        position: relative;
+        margin-right: 50px;
+       padding: 20px;
+      border-radius: 10px;
+      background-color: blueviolet;
+      color: white;
+    }
+    button2{
+      /* border: 1px solid black; */
+      padding: 20px;
+        border-radius: 10px;  
+        background-color: blueviolet;
+        color: antiquewhite;
+    }
+    button3{
+        /* border: 1px solid black; */
+        margin-left: 50px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: blueviolet;
+        color: antiquewhite;
+       
+    }
+    button4{
+        margin-left: 50px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color:  blueviolet;
+        width: 20px 20px;
+        
+        
+
+    }
+}
